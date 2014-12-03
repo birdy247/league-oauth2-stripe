@@ -1,0 +1,26 @@
+{
+    "name": "chrsm/league-oauth2-stripe",
+    "description": "Stripe OAuth2 provider for League\\OAuth2",
+    "license": "MIT",
+	"homepage": "https://github.com/chrsm",
+    "authors": [
+        {
+            "name": "chrsm",
+            "email": "c@chrsm.org"
+        }
+    ],
+	"keywords": [
+		"stripe",
+		"oauth2"
+	],
+    "require": {
+		"php": ">=5.4.0",
+        "league/oauth2-client": "~0.5"
+    },
+	"autoload": {
+		"psr-4": {
+			"chrsm\\oauth2\\": "src/"
+		}
+	},
+	"minimum-stability": "dev"
+}

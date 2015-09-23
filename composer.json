@@ -19,7 +19,7 @@
     },
 	"autoload": {
 		"psr-4": {
-			"chrsm\\oauth2\\": "src/"
+			"chrsm\\oauth2\\": "src/oauth2"
 		}
 	},
 	"minimum-stability": "dev"
